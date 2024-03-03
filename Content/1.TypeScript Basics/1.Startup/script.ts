@@ -1,5 +1,7 @@
 let str: string = "Hello TypeScript World !";
 
-function foo() {
+function foo(): string {
     return str;
 }
+
+console.log(str);
